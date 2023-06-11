@@ -4810,7 +4810,7 @@ fieldset:disabled .btn {
 } */
 .card{
   background: #fff;
-  border-radius: 20px;
+  border-radius: 15px;
   border: 5px solid #fff;
   overflow: hidden;
   color: var(--color-text);
@@ -11907,4 +11907,9 @@ header.masthead .h1 {
 #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption,
 #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+.swiper {
+  width: 1000px;
+  height: 300px;
 }
