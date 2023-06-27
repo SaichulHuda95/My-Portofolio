@@ -11912,3 +11912,12 @@ header.masthead .h1 {
 .cover-img {
   border-radius: 15px;
 }
+
+.zoom{
+        width: 100%;
+        transition: 0.5s all ease-in-out;
+    }
+
+.zoom:hover{
+  transform: scale(1.5);
+}
