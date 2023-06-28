@@ -4809,13 +4809,8 @@ fieldset:disabled .btn {
   border-radius: 0.25rem;
 } */
 .card{
-  background: #fff;
+  background: #f5eae1;
   border-radius: 15px;
-  border: 5px solid #fff;
-  overflow: hidden;
-  color: var(--color-text);
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
-              rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .card > hr {
   margin-right: 0;
@@ -11911,6 +11906,24 @@ header.masthead .h1 {
 
 .cover-img {
   border-radius: 15px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 214px;
+}
+
+.gmap_canvas{
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 214px;  
+}
+
+.gmap_iframe{
+  height: 214px !important;
 }
 
 .zoom{
