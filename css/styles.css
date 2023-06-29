@@ -12012,11 +12012,10 @@ header.masthead .h1 {
 }
 .floating-container .floating-button {
   position: absolute;
-  width: 65px;
   height: 65px;
   background: #f5a17e;
   bottom: 0;
-  border-radius: 50%;
+  border-radius: 15px;
   left: 0;
   right: 0;
   margin: auto;
