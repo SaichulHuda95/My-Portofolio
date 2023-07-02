@@ -11988,25 +11988,25 @@ header.masthead .h1 {
   right: 0;
   margin: 35px 25px;
 }
-.floating-container:hover {
+.floating-container:active {
   height: 300px;
 }
-.floating-container:hover .floating-button {
+.floating-container:active .floating-button {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
   -webkit-transform: translatey(5px);
           transform: translatey(5px);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.floating-container:hover .element-container .float-element:nth-child(1) {
+.floating-container:active .element-container .float-element:nth-child(1) {
   -webkit-animation: come-in 0.4s forwards 0.2s;
           animation: come-in 0.4s forwards 0.2s;
 }
-.floating-container:hover .element-container .float-element:nth-child(2) {
+.floating-container:active .element-container .float-element:nth-child(2) {
   -webkit-animation: come-in 0.4s forwards 0.4s;
           animation: come-in 0.4s forwards 0.4s;
 }
-.floating-container:hover .element-container .float-element:nth-child(3) {
+.floating-container:active .element-container .float-element:nth-child(3) {
   -webkit-animation: come-in 0.4s forwards 0.6s;
           animation: come-in 0.4s forwards 0.6s;
 }
